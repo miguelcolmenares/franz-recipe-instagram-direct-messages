@@ -1,8 +1,15 @@
 "use strict";
 
 const path = require('path');
+const globalStyles = path.join(__dirname, 'global.css');
 
-module.exports = Franz => {
+setInterval(() => {
+  document.querySelector("._lz6s.Hz2lF").style.display = "none";
+  document.querySelector(".t30g8.L1C6I").style.paddingTop = 0;
+  document.querySelector(".i0EQd").style.maxWidth = 'unset';
+}, 1000);
+
+module.exports = (Franz) => {
   const getMessages = () => {
     let count = 0;
     const elements = document.querySelectorAll('.rBNOH.soMvl');
@@ -13,5 +20,6 @@ module.exports = Franz => {
   };
 
   Franz.loop(getMessages);
-  Franz.injectCSS(path.join(__dirname, 'service.css'));
+
+  Franz.injectCSS(globalStyles);
 };
