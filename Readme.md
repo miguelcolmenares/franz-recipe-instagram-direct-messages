@@ -1,2 +1,2 @@
 # Instagram direct messages for Franz
-This is a Franz recipe for Instagram
+This is a Franz recipe for Instagram direct messages
