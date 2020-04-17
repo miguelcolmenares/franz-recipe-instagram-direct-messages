@@ -4,7 +4,7 @@
     "version": "0.0.1",
     "description": "Instagram Messenger",
     "main": "index.js",
-    "author": "Miguel Colmenares <stefan@adlk.io>",
+    "author": "Miguel Colmenares <me@miguelcolmenares.com>",
     "license": "MIT",
     "config": {
         "serviceURL": "https://www.instagram.com/direct/inbox/",
